@@ -1,10 +1,34 @@
-# pankti09.github.io
-Personal Portfolio
-/pankti09.github.io
-   ├── index.html         # Homepage
-   ├── style.css          # CSS styling
-   ├── projects.html      # Project details
-   ├── about.html         # About Me section
-   ├── contact.html       # Contact info
-   ├── assets/            # Images, icons
-   ├── README.md          # Optional description
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankti Shah | AI/ML Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pankti Shah</h1>
+        <p>AI/ML Engineer | Data Scientist | LLM Specialist</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome!</h2>
+        <p>I'm an AI/ML Engineer with expertise in Large Language Models (LLMs), NLP, and MLOps. Passionate about developing cutting-edge AI solutions and teaching the next generation of AI professionals.</p>
+        <p>Explore my work and feel free to connect!</p>
+        <a href="projects.html" class="btn">View Projects</a>
+    </section>
+    
+    <footer>
+        <p>© 2025 Pankti Shah | <a href="https://github.com/pankti09">GitHub</a> | <a href="https://www.linkedin.com/in/pankti-shah-9b2314166/">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
